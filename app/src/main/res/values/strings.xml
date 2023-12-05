@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ALL IN ONE CALCULATOR</string>
+    <string name="TextHome">Choose Your Calculator</string>
+    <string name="CalcBTNName">Basic Calculator</string>
+    <string name="BMIBTNName">BMI Calculator</string>
+    <string name="TipBTNName">Tip Calculator</string>
+    <string name="OtherBTNName">Convertors</string>
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ConvertorsHomePage">
+
+    <Button
+        android:id="@+id/WeightBTN"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="32dp"
+        android:text="Weight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/second"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/TempBTN" />
+
+    <TextView
+        android:id="@+id/convTitle"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:text="Convertors"
+        android:textSize="45dp"
+        android:textColor="@color/second"
+        android:gravity="center"
+
+        app:layout_constraintBottom_toTopOf="@+id/TempBTN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/TempBTN"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="220dp"
+        android:background="@color/second"
+        android:text="Tempurature"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/HeightBTN"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="32dp"
+        android:text="Height"
+        android:background="@color/second"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WeightBTN" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
